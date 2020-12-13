@@ -1,0 +1,205 @@
+rem -*- mode: basic -*-
+
+type List
+    _xs as Array
+    type_ as String
+    len as integer
+    cap as integer ' capacity
+end type
+
+
+function new_
+    dim cap
+    cap = 1
+
+    dim _xs(cap - 1) as variant
+    dim xs as New List
+
+    xs._xs = _xs
+    xs.type_ = "List"
+    xs.len = 0
+    xs.cap = cap
+    new_ = xs
+end function
+
+
+function create
+    dim cap
+    cap = 1
+
+    dim _xs(cap - 1) as variant
+    dim xs as New List
+
+    xs._xs = _xs
+    xs.type_ = "List"
+    xs.len = 0
+    xs.cap = cap
+    create = xs
+end function
+
+
+rem TODO Use redim
+sub add(_list, val) ' TODO self
+    if _list.cap <= _list.len then
+        ' raise("List のサイズ上限を超えました")
+
+        dim newcap
+        newcap = _list.cap * 2
+        dim newxs(newcap - 1)
+        dim i
+        i = -1
+        do while i < _list.cap - 1
+            i = i + 1
+            newxs(i) = List.get_(_list, i)
+        loop
+        _list._xs = newxs
+        _list.cap = newcap
+    end if
+
+    _list._xs(_list.len) = val
+    _list.len = _list.len + 1
+end sub
+
+
+sub add_els(self, els)
+    dim i as integer
+    dim el
+    for i = 0 to List.size(els) - 1
+        el = List.get_(els, i)
+        List.add(self, el)
+    next
+end sub
+
+
+function get_(_list as List, i) ' TODO self
+    get_ = _list._xs(i)
+end function
+
+
+function is_list(val)
+    dim retval as boolean
+    retval = false
+
+    if IsNull(val) then
+        retval = false
+    elseif isArray(val) = true then
+        retval = false
+    elseif TypeName(val) = "String" then
+        retval = false
+    elseif TypeName(val) = "Object" then
+        dim xs as List
+        xs = val
+        if xs.type_ = "List" then
+            retval = true
+        end if
+    end if
+
+    is_list = retval
+end function
+
+
+function head(_list) ' TODO self
+    head = get_(_list, 0)
+end function
+
+
+function rest(_list) ' TODO self
+    dim newlist, i
+    newlist = new_()
+
+    if 2 <= _list.len then
+        for i = 1 to (_list.len - 1)
+            List.add(newlist, List.get_(_list, i))
+        next
+    end if
+
+    rest = newlist
+end function
+
+
+function index(list__, elem) ' TODO self
+    dim rv
+    dim i, found
+
+    i = 0
+    found = false
+    do while i < list__.len
+        if List.get_(list__, i) = elem then
+            found = true
+            exit do
+        end if
+        i = i + 1
+    loop
+
+    if found then
+        rv = i
+    else
+        rv = null
+    end if
+
+    index = rv
+end function
+
+
+function include(list__, elem) ' TODO self
+    dim rv
+    dim i
+
+    i = index(list__, elem)
+    rv = not IsNull(i)
+
+    include = rv
+end function
+
+
+function List_inspect(list__) as string ' TODO self
+    dim rv
+    dim i
+
+    rv = "["
+    for i = 0 to list__.len - 1
+        if 1 <= i then
+            rv = rv & ", "
+        end if
+        rv = rv & inspect(List.get_(list__, i))
+    next
+    rv = rv & "]"
+
+    List_inspect = rv
+end function
+
+
+function size(self)
+      size = self.len
+end function
+
+
+function reverse(self)
+    dim newlist
+    newlist = List.new_()
+
+    dim i as integer
+    dim el
+    i = List.size(self) - 1
+    do while 0 <= i
+        el = List.get_(self, i)
+        List.add(newlist, el)
+        i = i - 1
+    loop
+
+    reverse = newlist
+end function
+
+
+function from_array(xs)
+    dim rv
+
+    rv = List.new_()
+
+    dim i as integer
+    for i = 0 to ubound(xs)
+        List.add(rv, xs(i))
+    next
+
+    from_array = rv
+end function
