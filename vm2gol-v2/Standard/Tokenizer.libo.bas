@@ -291,7 +291,7 @@ function _match_int(rest_) as integer
 
     pos = 0
     do while pos < len(rest_)
-        c = left(substring(rest_, pos), 1) ' TODO Use char_at
+        c = char_at(rest_, pos)
         if not str_include("-0123456789", c) then
             exit do
         end if
