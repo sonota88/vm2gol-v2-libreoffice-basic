@@ -107,63 +107,63 @@ end sub
 
 
 function tok_sub(rest_)
-    dim retval, size, str ' TODO rename => rv
-    retval = null
+    dim rv, size, str
+    rv = null
 
     if left(rest_, 1) = " " then
-        retval = null
-        tok_sub = retval
+        rv = null
+        tok_sub = rv
         exit function
     end if
 
     size = _match_comment(rest_)
     if 0 < size then
-        retval = Array("comment", null, size)
-        tok_sub = retval
+        rv = Array("comment", null, size)
+        tok_sub = rv
         exit function
     end if
 
     size = _match_str(rest_)
     if 0 < size then
         str = substring(rest_, 1, size - 1)
-        retval = Array("str", str, size)
-        tok_sub = retval
+        rv = Array("str", str, size)
+        tok_sub = rv
         exit function
     end if
 
     size = _match_kw(rest_)
     if 0 < size then
         str = left(rest_, size)
-        retval = Array("kw", str, size)
-        tok_sub = retval
+        rv = Array("kw", str, size)
+        tok_sub = rv
         exit function
     end if
 
     size = _match_int(rest_)
     if 0 < size then
         str = left(rest_, size)
-        retval = Array("int", str, size)
-        tok_sub = retval
+        rv = Array("int", str, size)
+        tok_sub = rv
         exit function
     end if
 
     size = _match_sym(rest_)
     if 0 < size then
         str = left(rest_, size)
-        retval = Array("sym", str, size)
-        tok_sub = retval
+        rv = Array("sym", str, size)
+        tok_sub = rv
         exit function
     end if
 
     size = _match_ident(rest_)
     if 0 < size then
         str = left(rest_, size)
-        retval = Array("ident", str, size)
-        tok_sub = retval
+        rv = Array("ident", str, size)
+        tok_sub = rv
         exit function
     end if
 
-    tok_sub = retval
+    tok_sub = rv
 end function
 
 
@@ -304,17 +304,17 @@ end function
 
 
 function _match_sym(rest_) as integer
-    dim retval
+    dim rv
 
     if left(rest_, 2) = "==" or left(rest_, 2) = "!=" then
-        retval = 2
+        rv = 2
     elseif instr(";,+*=(){}", left(rest_, 1)) <> 0 then
-        retval = 1
+        rv = 1
     else
-        retval = 0
+        rv = 0
     end if
 
-    _match_sym = retval
+    _match_sym = rv
 end function
 
 
