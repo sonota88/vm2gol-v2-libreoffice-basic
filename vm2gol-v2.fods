@@ -391,7 +391,7 @@ function _get_insn_parts(pc) as object
     xs = split(cell_val, &quot; &quot;)
 
     dim parts
-    parts = List.create()
+    parts = List.new_()
 
     dim i as integer
     for i = 0 to ubound(xs)
@@ -1973,7 +1973,7 @@ end sub
 
 function _filter_lines(raw_lines)
     dim lines
-    lines = List.create()
+    lines = List.new_()
 
     dim i as integer
     dim line_ as string
@@ -2705,21 +2705,6 @@ function new_
     xs.len = 0
     xs.cap = cap
     new_ = xs
-end function
-
-
-function create
-    dim cap
-    cap = 1
-
-    dim _xs(cap - 1) as variant
-    dim xs as New List
-
-    xs._xs = _xs
-    xs.type_ = &quot;List&quot;
-    xs.len = 0
-    xs.cap = cap
-    create = xs
 end function
 
 
@@ -3960,7 +3945,7 @@ function _parse_when_clause
     stmts = _parse_stmts()
     _consume &quot;}&quot;
 
-    rv = List.create()
+    rv = List.new_()
     List.add(rv, expr)
     List.add_els(rv, stmts)
 
@@ -3975,7 +3960,7 @@ function _parse_case
     _consume &quot;{&quot;
 
     dim when_clauses
-    when_clauses = List.create()
+    when_clauses = List.new_()
 
     dim when_clause
     do while true
@@ -3989,7 +3974,7 @@ function _parse_case
 
     _consume &quot;}&quot;
 
-    rv = List.create()
+    rv = List.new_()
     List.add(rv, &quot;case&quot;)
     List.add_els(rv, when_clauses)
 

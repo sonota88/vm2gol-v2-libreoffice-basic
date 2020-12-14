@@ -173,7 +173,7 @@ function _get_insn_parts(pc) as object
     xs = split(cell_val, " ")
 
     dim parts
-    parts = List.create()
+    parts = List.new_()
 
     dim i as integer
     for i = 0 to ubound(xs)

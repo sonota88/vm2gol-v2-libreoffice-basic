@@ -527,7 +527,7 @@ function _parse_when_clause
     stmts = _parse_stmts()
     _consume "}"
 
-    rv = List.create()
+    rv = List.new_()
     List.add(rv, expr)
     List.add_els(rv, stmts)
 
@@ -542,7 +542,7 @@ function _parse_case
     _consume "{"
 
     dim when_clauses
-    when_clauses = List.create()
+    when_clauses = List.new_()
 
     dim when_clause
     do while true
@@ -556,7 +556,7 @@ function _parse_case
 
     _consume "}"
 
-    rv = List.create()
+    rv = List.new_()
     List.add(rv, "case")
     List.add_els(rv, when_clauses)
 

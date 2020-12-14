@@ -108,7 +108,7 @@ end sub
 
 function _filter_lines(raw_lines)
     dim lines
-    lines = List.create()
+    lines = List.new_()
 
     dim i as integer
     dim line_ as string

@@ -23,21 +23,6 @@ function new_
 end function
 
 
-function create
-    dim cap
-    cap = 1
-
-    dim _xs(cap - 1) as variant
-    dim xs as New List
-
-    xs._xs = _xs
-    xs.type_ = "List"
-    xs.len = 0
-    xs.cap = cap
-    create = xs
-end function
-
-
 function _extend(self)
     dim newcap as integer
     newcap = self.cap * 2
