@@ -39,25 +39,25 @@ end function
 
 
 rem TODO Use redim
-sub add(_list, val) ' TODO self
-    if _list.cap <= _list.len then
+sub add(self, val)
+    if self.cap <= self.len then
         ' raise("List のサイズ上限を超えました")
 
         dim newcap
-        newcap = _list.cap * 2
+        newcap = self.cap * 2
         dim newxs(newcap - 1)
         dim i
         i = -1
-        do while i < _list.cap - 1
+        do while i < self.cap - 1
             i = i + 1
-            newxs(i) = List.get_(_list, i)
+            newxs(i) = List.get_(self, i)
         loop
-        _list._xs = newxs
-        _list.cap = newcap
+        self._xs = newxs
+        self.cap = newcap
     end if
 
-    _list._xs(_list.len) = val
-    _list.len = _list.len + 1
+    self._xs(self.len) = val
+    self.len = self.len + 1
 end sub
 
 
@@ -71,8 +71,8 @@ sub add_els(self, els)
 end sub
 
 
-function get_(_list as List, i) ' TODO self
-    get_ = _list._xs(i)
+function get_(self as List, i)
+    get_ = self._xs(i)
 end function
 
 
@@ -98,18 +98,18 @@ function is_list(val)
 end function
 
 
-function head(_list) ' TODO self
-    head = get_(_list, 0)
+function head(self)
+    head = get_(self, 0)
 end function
 
 
-function rest(_list) ' TODO self
+function rest(self)
     dim newlist, i
     newlist = new_()
 
-    if 2 <= _list.len then
-        for i = 1 to (_list.len - 1)
-            List.add(newlist, List.get_(_list, i))
+    if 2 <= self.len then
+        for i = 1 to (self.len - 1)
+            List.add(newlist, List.get_(self, i))
         next
     end if
 
@@ -117,14 +117,14 @@ function rest(_list) ' TODO self
 end function
 
 
-function index(list__, elem) ' TODO self
+function index(self, elem)
     dim rv
     dim i, found
 
     i = 0
     found = false
-    do while i < list__.len
-        if List.get_(list__, i) = elem then
+    do while i < self.len
+        if List.get_(self, i) = elem then
             found = true
             exit do
         end if
@@ -141,27 +141,27 @@ function index(list__, elem) ' TODO self
 end function
 
 
-function include(list__, elem) ' TODO self
+function include(self, elem)
     dim rv
     dim i
 
-    i = index(list__, elem)
+    i = index(self, elem)
     rv = not IsNull(i)
 
     include = rv
 end function
 
 
-function List_inspect(list__) as string ' TODO self
+function List_inspect(self) as string
     dim rv
     dim i
 
     rv = "["
-    for i = 0 to list__.len - 1
+    for i = 0 to self.len - 1
         if 1 <= i then
             rv = rv & ", "
         end if
-        rv = rv & inspect(List.get_(list__, i))
+        rv = rv & inspect(List.get_(self, i))
     next
     rv = rv & "]"
 
