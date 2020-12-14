@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:creation-date>2020-11-03T08:36:06.944639694</meta:creation-date><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/00m0$Build-3</meta:generator><dc:date>2020-12-15T05:57:35.531104260</dc:date><meta:editing-duration>P10DT19H32M33S</meta:editing-duration><meta:editing-cycles>3694</meta:editing-cycles><meta:document-statistic meta:table-count="7" meta:cell-count="320" meta:object-count="24"/></office:meta>
+ <office:meta><meta:creation-date>2020-11-03T08:36:06.944639694</meta:creation-date><meta:generator>LibreOffice/6.0.7.3$Linux_X86_64 LibreOffice_project/00m0$Build-3</meta:generator><dc:date>2020-12-15T06:29:59.463693915</dc:date><meta:editing-duration>P10DT19H37M42S</meta:editing-duration><meta:editing-cycles>3695</meta:editing-cycles><meta:document-statistic meta:table-count="7" meta:cell-count="320" meta:object-count="24"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -14,7 +14,7 @@
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="asm">
        <config:config-item config:name="CursorPositionX" config:type="int">11</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">11</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -31,8 +31,8 @@
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="env">
-       <config:config-item config:name="CursorPositionX" config:type="int">1</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">8</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">2</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -50,7 +50,7 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="exe">
        <config:config-item config:name="CursorPositionX" config:type="int">3</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">1</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -86,7 +86,7 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="tokens">
        <config:config-item config:name="CursorPositionX" config:type="int">8</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">10</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -104,7 +104,7 @@
       </config:config-item-map-entry>
       <config:config-item-map-entry config:name="tree">
        <config:config-item config:name="CursorPositionX" config:type="int">6</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">20</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -4257,154 +4257,141 @@ end function
   </style:style>
  </office:styles>
  <office:automatic-styles>
-  <style:style style:name="co40" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="31.31mm"/>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="32.95mm"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="12.79mm"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="23.95mm"/>
   </style:style>
   <style:style style:name="co4" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="22.58mm"/>
   </style:style>
-  <style:style style:name="co3" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="32.95mm"/>
-  </style:style>
   <style:style style:name="co5" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="12.79mm"/>
-  </style:style>
-  <style:style style:name="co6" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="23.95mm"/>
-  </style:style>
-  <style:style style:name="co7" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="17.15mm"/>
   </style:style>
-  <style:style style:name="co8" style:family="table-column">
+  <style:style style:name="co6" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="19.05mm"/>
   </style:style>
-  <style:style style:name="co9" style:family="table-column">
+  <style:style style:name="co7" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="6.79mm"/>
   </style:style>
-  <style:style style:name="co10" style:family="table-column">
+  <style:style style:name="co8" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="16.42mm"/>
   </style:style>
-  <style:style style:name="co11" style:family="table-column">
+  <style:style style:name="co9" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="22.6mm"/>
   </style:style>
-  <style:style style:name="co12" style:family="table-column">
+  <style:style style:name="co10" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="20.14mm"/>
   </style:style>
-  <style:style style:name="co13" style:family="table-column">
+  <style:style style:name="co11" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="5.98mm"/>
   </style:style>
-  <style:style style:name="co14" style:family="table-column">
+  <style:style style:name="co12" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="22.33mm"/>
   </style:style>
-  <style:style style:name="co15" style:family="table-column">
+  <style:style style:name="co13" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="25.59mm"/>
   </style:style>
-  <style:style style:name="co16" style:family="table-column">
+  <style:style style:name="co14" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="22.86mm"/>
   </style:style>
-  <style:style style:name="co17" style:family="table-column">
+  <style:style style:name="co15" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="14.98mm"/>
   </style:style>
-  <style:style style:name="co18" style:family="table-column">
+  <style:style style:name="co16" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="21.5mm"/>
   </style:style>
-  <style:style style:name="co19" style:family="table-column">
+  <style:style style:name="co17" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="26.41mm"/>
   </style:style>
-  <style:style style:name="co20" style:family="table-column">
+  <style:style style:name="co18" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="14.15mm"/>
   </style:style>
-  <style:style style:name="co21" style:family="table-column">
+  <style:style style:name="co19" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="10.88mm"/>
   </style:style>
-  <style:style style:name="co22" style:family="table-column">
+  <style:style style:name="co20" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="28.05mm"/>
   </style:style>
-  <style:style style:name="co23" style:family="table-column">
+  <style:style style:name="co21" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="18.5mm"/>
   </style:style>
-  <style:style style:name="co24" style:family="table-column">
+  <style:style style:name="co22" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="14.69mm"/>
   </style:style>
-  <style:style style:name="co25" style:family="table-column">
+  <style:style style:name="co23" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="8.71mm"/>
   </style:style>
-  <style:style style:name="co26" style:family="table-column">
+  <style:style style:name="co24" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="24.24mm"/>
   </style:style>
-  <style:style style:name="co27" style:family="table-column">
+  <style:style style:name="co25" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="7.88mm"/>
   </style:style>
-  <style:style style:name="co28" style:family="table-column">
+  <style:style style:name="co26" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="30.22mm"/>
   </style:style>
-  <style:style style:name="co29" style:family="table-column">
+  <style:style style:name="co27" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="7.62mm"/>
   </style:style>
-  <style:style style:name="co30" style:family="table-column">
+  <style:style style:name="co28" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="6.88mm"/>
   </style:style>
-  <style:style style:name="co31" style:family="table-column">
+  <style:style style:name="co29" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="9.07mm"/>
   </style:style>
-  <style:style style:name="co32" style:family="table-column">
+  <style:style style:name="co30" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="7.07mm"/>
   </style:style>
-  <style:style style:name="co33" style:family="table-column">
+  <style:style style:name="co31" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="13.07mm"/>
   </style:style>
-  <style:style style:name="co34" style:family="table-column">
+  <style:style style:name="co32" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="6.35mm"/>
   </style:style>
-  <style:style style:name="co35" style:family="table-column">
+  <style:style style:name="co33" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="11.98mm"/>
   </style:style>
-  <style:style style:name="co36" style:family="table-column">
+  <style:style style:name="co34" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="9mm"/>
   </style:style>
-  <style:style style:name="co37" style:family="table-column">
+  <style:style style:name="co35" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="23.14mm"/>
   </style:style>
-  <style:style style:name="co38" style:family="table-column">
+  <style:style style:name="co36" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="12.24mm"/>
   </style:style>
-  <style:style style:name="co39" style:family="table-column">
+  <style:style style:name="co37" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="11.8mm"/>
   </style:style>
-  <style:style style:name="co41" style:family="table-column">
+  <style:style style:name="co38" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="11.69mm"/>
   </style:style>
-  <style:style style:name="co42" style:family="table-column">
+  <style:style style:name="co39" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="5.72mm"/>
+  </style:style>
+  <style:style style:name="co40" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="31.31mm"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
    <style:table-row-properties style:row-height="4.52mm" fo:break-before="auto" style:use-optimal-row-height="true"/>
   </style:style>
-  <style:style style:name="ta3" style:family="table" style:master-page-name="Default">
-   <style:table-properties table:display="true" style:writing-mode="lr-tb" tableooo:tab-color="#666666"/>
-  </style:style>
-  <style:style style:name="ta2" style:family="table" style:master-page-name="Default">
+  <style:style style:name="ta1" style:family="table" style:master-page-name="Default">
    <style:table-properties table:display="true" style:writing-mode="lr-tb" tableooo:tab-color="#0066b3"/>
   </style:style>
-  <style:style style:name="ta4" style:family="table" style:master-page-name="Default">
+  <style:style style:name="ta2" style:family="table" style:master-page-name="Default">
    <style:table-properties table:display="true" style:writing-mode="lr-tb" tableooo:tab-color="#ce181e"/>
+  </style:style>
+  <style:style style:name="ta3" style:family="table" style:master-page-name="Default">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb" tableooo:tab-color="#666666"/>
   </style:style>
   <number:text-style style:name="N100">
    <number:text-content/>
   </number:text-style>
-  <style:style style:name="ce111" style:family="table-cell" style:parent-style-name="Default">
-   <style:text-properties style:font-name="VL ゴシック1" style:font-name-asian="VL ゴシック1"/>
-  </style:style>
-  <style:style style:name="ce112" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
-   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
-   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm"/>
-   <style:text-properties style:font-name="VL ゴシック1" style:font-name-asian="VL ゴシック1"/>
-  </style:style>
-  <style:style style:name="ce113" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
-   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
-   <style:paragraph-properties fo:text-align="end" fo:margin-left="0mm"/>
-   <style:text-properties style:font-name="VL ゴシック1" style:font-name-asian="VL ゴシック1"/>
-  </style:style>
   <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N100">
    <style:table-cell-properties fo:background-color="#eeeeee" style:vertical-align="top"/>
    <style:text-properties style:font-name="VL ゴシック1" style:font-name-asian="VL ゴシック1"/>
@@ -4645,16 +4632,16 @@ end function
    <style:text-properties style:font-name="VL ゴシック1" style:font-name-asian="VL ゴシック1"/>
   </style:style>
   <style:style style:name="gr1" style:family="graphic">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="21.3mm" fo:min-width="37.13mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="47.59mm" fo:min-width="37.13mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr2" style:family="graphic">
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="91.17mm" fo:min-width="45.4mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr3" style:family="graphic">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="18.74mm" fo:min-width="34.35mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="18.74mm" fo:min-width="34.33mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr4" style:family="graphic">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="8.35mm" fo:min-width="28.48mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="45.52mm" fo:min-width="56.52mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr5" style:family="graphic">
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="53.97mm" fo:min-width="92.71mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
@@ -4663,7 +4650,7 @@ end function
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="15.32mm" fo:min-width="31.91mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr7" style:family="graphic">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="14.2mm" fo:min-width="31.75mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="14.2mm" fo:min-width="31.73mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr8" style:family="graphic">
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="92.51mm" fo:min-width="29.45mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
@@ -4672,13 +4659,13 @@ end function
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="92.51mm" fo:min-width="62.28mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr10" style:family="graphic">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="18.72mm" fo:min-width="75.51mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="18.7mm" fo:min-width="75.49mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr11" style:family="graphic">
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="36.5mm" fo:min-width="28.03mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:style style:name="gr12" style:family="graphic">
-   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="13.93mm" fo:min-width="41.71mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#666666" draw:fill="solid" draw:fill-color="#333333" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" draw:auto-grow-height="false" fo:min-height="67.05mm" fo:min-width="70.5mm" fo:padding-top="1mm" fo:padding-bottom="1mm" fo:padding-left="1mm" fo:padding-right="1mm"/>
   </style:style>
   <style:page-layout style:name="pm1">
    <style:page-layout-properties style:writing-mode="lr-tb"/>
@@ -4707,6 +4694,7 @@ end function
   </style:style>
   <style:style style:name="P2" style:family="paragraph">
    <style:paragraph-properties fo:text-align="start"/>
+   <style:text-properties style:font-name="VL ゴシック1" fo:font-size="8pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="8pt"/>
   </style:style>
   <style:style style:name="P3" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#333333"/>
@@ -4723,41 +4711,45 @@ end function
    <style:text-properties style:font-name="VL ゴシック1" fo:font-size="10pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt" fo:hyphenate="false"/>
   </style:style>
   <style:style style:name="P6" style:family="paragraph">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
    <style:paragraph-properties fo:text-align="start"/>
    <style:text-properties style:font-name="VL ゴシック1" fo:font-size="10pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt"/>
   </style:style>
   <style:style style:name="P7" style:family="paragraph">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#333333"/>
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
    <style:paragraph-properties fo:text-align="start"/>
    <style:text-properties style:font-name="VL ゴシック1" fo:font-size="10pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt"/>
   </style:style>
   <style:style style:name="P8" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="start"/>
+   <style:text-properties style:font-name="VL ゴシック" fo:font-size="8pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="8pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#333333"/>
+   <style:paragraph-properties fo:text-align="start"/>
+   <style:text-properties style:font-name="VL ゴシック" fo:font-size="8pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="8pt" style:font-size-complex="10pt"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph">
    <style:paragraph-properties fo:text-align="start"/>
    <style:text-properties style:font-name="VL ゴシック" fo:font-size="10pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph">
+  <style:style style:name="P11" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
    <style:paragraph-properties fo:text-align="start"/>
    <style:text-properties style:font-name="VL ゴシック" fo:font-size="10pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
-  <style:style style:name="P10" style:family="paragraph">
+  <style:style style:name="P12" style:family="paragraph">
+   <style:text-properties fo:font-size="8pt" style:font-size-asian="8pt"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#333333"/>
    <style:paragraph-properties fo:text-align="center"/>
-   <style:text-properties style:font-name="VL ゴシック1" fo:font-size="10pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt"/>
-  </style:style>
-  <style:style style:name="T1" style:family="text">
    <style:text-properties style:font-name="VL ゴシック1" fo:font-size="8pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="8pt"/>
   </style:style>
-  <style:style style:name="T2" style:family="text">
+  <style:style style:name="T1" style:family="text">
    <style:text-properties style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="VL ゴシック1" fo:font-size="10pt" fo:language="en" fo:country="US" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt" style:language-asian="ja" style:country-asian="JP" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="TakaoPGothic" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
-  <style:style style:name="T3" style:family="text">
-   <style:text-properties style:font-name="VL ゴシック1" fo:font-size="10pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt"/>
-  </style:style>
-  <style:style style:name="T4" style:family="text">
-   <style:text-properties style:font-name="VL ゴシック" fo:font-size="10pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties style:font-name="VL ゴシック1" fo:font-size="8pt" style:font-name-asian="VL ゴシック1" style:font-size-asian="8pt"/>
   </style:style>
  </office:automatic-styles>
  <office:master-styles>
@@ -4777,7 +4769,7 @@ end function
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2020-12-15">0000/00/00</text:date>, <text:time style:data-style-name="N2" text:time-value="05:56:45.277623669">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2020-12-15">0000/00/00</text:date>, <text:time style:data-style-name="N2" text:time-value="06:24:50.228268846">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -4790,7 +4782,7 @@ end function
  <office:body>
   <office:spreadsheet>
    <table:calculation-settings table:automatic-find-labels="false" table:use-regular-expressions="false" table:use-wildcards="true"/>
-   <table:table table:name="src" table:style-name="ta2">
+   <table:table table:name="src" table:style-name="ta1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false">
      <form:form form:name="フォーム" form:apply-filter="true" form:command-type="table" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="" xlink:href="" xlink:type="simple">
       <form:properties>
@@ -4816,14 +4808,14 @@ end function
     </office:forms>
     <table:shapes>
      <draw:control draw:z-index="0" draw:text-style-name="P1" svg:width="27.5mm" svg:height="17.27mm" svg:x="153.44mm" svg:y="6.91mm" draw:control="control1"/>
-     <draw:custom-shape draw:z-index="1" draw:name="log" draw:style-name="gr1" draw:text-style-name="P3" svg:width="39.13mm" svg:height="23.3mm" svg:x="152.48mm" svg:y="30.09mm">
-      <text:p text:style-name="P2"><text:span text:style-name="T1">.</text:span></text:p>
+     <draw:custom-shape draw:z-index="1" draw:name="log" draw:style-name="gr1" draw:text-style-name="P3" svg:width="39.13mm" svg:height="49.59mm" svg:x="152.48mm" svg:y="30.09mm">
+      <text:p text:style-name="P2">.</text:p>
       <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
      </draw:custom-shape>
      <draw:control draw:z-index="3" draw:text-style-name="P1" svg:width="27.5mm" svg:height="17.27mm" svg:x="188.79mm" svg:y="6.91mm" draw:control="control2"/></table:shapes>
-    <table:table-column table:style-name="co3" table:number-columns-repeated="2" table:default-cell-style-name="ce3"/>
-    <table:table-column table:style-name="co5" table:default-cell-style-name="ce13"/>
-    <table:table-column table:style-name="co6" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co1" table:number-columns-repeated="2" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="ce3"/>
     <table:table-column table:style-name="co4" table:default-cell-style-name="ce3"/>
     <table:table-column table:style-name="co4" table:default-cell-style-name="ce13"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="6" table:default-cell-style-name="ce39"/>
@@ -4831,218 +4823,218 @@ end function
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce1">
       <draw:custom-shape table:end-cell-address="src.B22" table:end-x="17.47mm" table:end-y="1.33mm" draw:z-index="2" draw:name="src" draw:style-name="gr2" draw:text-style-name="P5" svg:width="47.4mm" svg:height="93.17mm" svg:x="3.03mm" svg:y="3mm">
-       <text:p text:style-name="P4"><text:span text:style-name="T2">// -*- mode: javascript -*-</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func to_vi(w, x, y, offset) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var vi; // vram index</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set vi = </text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">((y * w) + x)</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">+</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">offset</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">return vi;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func vram_set(w, x, y, val) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var vi; // vram index</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set vi = to_vi(w, x, y, 0);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set vram[vi] = val;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func vram_set_buf(w, x, y, val) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var vi; // vram index</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set <text:s/>vi = to_vi(w, x, y, 25);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set vram[vi] = val;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func vram_get(w, x, y) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var vi; // vram index</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set vi = to_vi(w, x, y, 0);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">return vram[vi];</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func adjust_index(width, i) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var adjusted;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">case {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">(i == -1) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">下限を超えた場合</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">set adjusted = width + -1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">(i == width) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">上限を超えた場合</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">set adjusted = 0;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">(1 == 1) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">補正が不要な場合</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="5"/></text:span><text:span text:style-name="T2">set adjusted = i;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">return adjusted;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func calc_next_gen(current_val, count) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">// </text:span><text:span text:style-name="T2">注目しているセルの次世代の生死</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var next_val = 0;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">case {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">(current_val == 0) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">case {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="8"/></text:span><text:span text:style-name="T2">(count == 3) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="10"/></text:span><text:span text:style-name="T2">set next_val = 1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="8"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">(0 == 0) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">case {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="8"/></text:span><text:span text:style-name="T2">(count == 2) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="10"/></text:span><text:span text:style-name="T2">set next_val = 1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="8"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="8"/></text:span><text:span text:style-name="T2">(count == 3) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="10"/></text:span><text:span text:style-name="T2">set next_val = 1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="8"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">return next_val;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func count_alive(w, h, x, y) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var count = 0;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var xl = x + -1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var xr = x + <text:s/>1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var yt = y + -1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var yb = y + <text:s/>1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ xl </text:span><text:span text:style-name="T2">の補正の直前</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set xl = adjust_index(w, xl);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ xl </text:span><text:span text:style-name="T2">の補正の直後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ xr </text:span><text:span text:style-name="T2">の補正の直前</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set xr = adjust_index(w, xr);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ xr </text:span><text:span text:style-name="T2">の補正の直後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ yt </text:span><text:span text:style-name="T2">の補正の直前</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set yt = adjust_index(h, yt);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ yt </text:span><text:span text:style-name="T2">の補正の直後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ yb </text:span><text:span text:style-name="T2">の補正の直前</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set yb = adjust_index(h, yb);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ yb </text:span><text:span text:style-name="T2">の補正の直後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ </text:span><text:span text:style-name="T2">座標補正の直後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">左上</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set tmp = vram_get(w, xl, yt);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set count = count + tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">上</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set tmp = vram_get(w, x, yt);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set count = count + tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">右上</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set tmp = vram_get(w, xr, yt);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set count = count + tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">左</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set tmp = vram_get(w, xl, y);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set count = count + tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">右</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set tmp = vram_get(w, xr, y);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set count = count + tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">左下</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set tmp = vram_get(w, xl, yb);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set count = count + tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">下</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set tmp = vram_get(w, x, yb);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set count = count + tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;</text:span><text:span text:style-name="T2">右下</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call_set tmp = vram_get(w, xr, yb);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">set count = count + tmp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">_cmt(&quot;★count_alive</text:span><text:span text:style-name="T2">の最後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">return count;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func make_next_gen(w, h) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var x = 0;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var y = 0;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var count;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">// </text:span><text:span text:style-name="T2">注目しているセルの現世代の生死</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var current_val;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">// </text:span><text:span text:style-name="T2">注目しているセルの次世代の生死</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var next_val;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">while (y != h) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">set x = 0;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">while (x != w) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">call_set count = count_alive(w, h, x, y);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ count_alive </text:span><text:span text:style-name="T2">から戻った直後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">_cmt(&quot;★</text:span><text:span text:style-name="T2">次世代の生死決定の直前</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">call_set current_val = vram_get(w, x, y);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">call_set next_val = calc_next_gen(current_val, count);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">_cmt(&quot;★</text:span><text:span text:style-name="T2">次世代の生死決定の直後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">call vram_set_buf(w, x, y, next_val);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">_cmt(&quot;★ vram_set_buf </text:span><text:span text:style-name="T2">から戻った直後</text:span><text:span text:style-name="T2">&quot;);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="6"/></text:span><text:span text:style-name="T2">set x = x + 1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">set y = y + 1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func replace_with_buf() {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var vi = 0;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var vi_buf;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var temp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">while (vi != 25) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">set vi_buf = vi + 25;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">set temp = vram[vi_buf];</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">set vram[vi] = temp;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">set vi = vi + 1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">func main() {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var w = 5; // </text:span><text:span text:style-name="T2">盤面の幅</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var h = 5; // </text:span><text:span text:style-name="T2">盤面の高さ</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">// </text:span><text:span text:style-name="T2">初期状態の設定</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call vram_set(w, 1, 0, 1);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call vram_set(w, 2, 1, 1);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call vram_set(w, 0, 2, 1);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call vram_set(w, 1, 2, 1);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">call vram_set(w, 2, 2, 1);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var gen_limit = 0;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">var gen = 1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">while (gen != gen_limit) {</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">call make_next_gen(w, h);</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">call replace_with_buf();</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="4"/></text:span><text:span text:style-name="T2">set gen = gen + 1;</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"><text:s text:c="2"/></text:span><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2">}</text:span></text:p>
-       <text:p text:style-name="P4"><text:span text:style-name="T2"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">// -*- mode: javascript -*-</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func to_vi(w, x, y, offset) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var vi; // vram index</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set vi = </text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">((y * w) + x)</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">+</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">offset</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">return vi;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func vram_set(w, x, y, val) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var vi; // vram index</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set vi = to_vi(w, x, y, 0);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set vram[vi] = val;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func vram_set_buf(w, x, y, val) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var vi; // vram index</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set <text:s/>vi = to_vi(w, x, y, 25);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set vram[vi] = val;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func vram_get(w, x, y) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var vi; // vram index</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set vi = to_vi(w, x, y, 0);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">return vram[vi];</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func adjust_index(width, i) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var adjusted;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">case {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">(i == -1) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">下限を超えた場合</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">set adjusted = width + -1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">(i == width) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">上限を超えた場合</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">set adjusted = 0;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">(1 == 1) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">補正が不要な場合</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="5"/></text:span><text:span text:style-name="T1">set adjusted = i;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">return adjusted;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func calc_next_gen(current_val, count) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">// </text:span><text:span text:style-name="T1">注目しているセルの次世代の生死</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var next_val = 0;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">case {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">(current_val == 0) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">case {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="8"/></text:span><text:span text:style-name="T1">(count == 3) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="10"/></text:span><text:span text:style-name="T1">set next_val = 1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="8"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">(0 == 0) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">case {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="8"/></text:span><text:span text:style-name="T1">(count == 2) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="10"/></text:span><text:span text:style-name="T1">set next_val = 1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="8"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="8"/></text:span><text:span text:style-name="T1">(count == 3) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="10"/></text:span><text:span text:style-name="T1">set next_val = 1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="8"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">return next_val;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func count_alive(w, h, x, y) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var count = 0;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var xl = x + -1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var xr = x + <text:s/>1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var yt = y + -1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var yb = y + <text:s/>1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ xl </text:span><text:span text:style-name="T1">の補正の直前</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set xl = adjust_index(w, xl);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ xl </text:span><text:span text:style-name="T1">の補正の直後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ xr </text:span><text:span text:style-name="T1">の補正の直前</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set xr = adjust_index(w, xr);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ xr </text:span><text:span text:style-name="T1">の補正の直後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ yt </text:span><text:span text:style-name="T1">の補正の直前</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set yt = adjust_index(h, yt);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ yt </text:span><text:span text:style-name="T1">の補正の直後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ yb </text:span><text:span text:style-name="T1">の補正の直前</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set yb = adjust_index(h, yb);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ yb </text:span><text:span text:style-name="T1">の補正の直後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ </text:span><text:span text:style-name="T1">座標補正の直後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">左上</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set tmp = vram_get(w, xl, yt);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set count = count + tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">上</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set tmp = vram_get(w, x, yt);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set count = count + tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">右上</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set tmp = vram_get(w, xr, yt);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set count = count + tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">左</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set tmp = vram_get(w, xl, y);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set count = count + tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">右</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set tmp = vram_get(w, xr, y);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set count = count + tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">左下</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set tmp = vram_get(w, xl, yb);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set count = count + tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">下</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set tmp = vram_get(w, x, yb);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set count = count + tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;</text:span><text:span text:style-name="T1">右下</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call_set tmp = vram_get(w, xr, yb);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">set count = count + tmp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">_cmt(&quot;★count_alive</text:span><text:span text:style-name="T1">の最後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">return count;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func make_next_gen(w, h) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var x = 0;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var y = 0;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var count;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">// </text:span><text:span text:style-name="T1">注目しているセルの現世代の生死</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var current_val;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">// </text:span><text:span text:style-name="T1">注目しているセルの次世代の生死</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var next_val;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">while (y != h) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">set x = 0;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">while (x != w) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">call_set count = count_alive(w, h, x, y);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ count_alive </text:span><text:span text:style-name="T1">から戻った直後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">_cmt(&quot;★</text:span><text:span text:style-name="T1">次世代の生死決定の直前</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">call_set current_val = vram_get(w, x, y);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">call_set next_val = calc_next_gen(current_val, count);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">_cmt(&quot;★</text:span><text:span text:style-name="T1">次世代の生死決定の直後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">call vram_set_buf(w, x, y, next_val);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">_cmt(&quot;★ vram_set_buf </text:span><text:span text:style-name="T1">から戻った直後</text:span><text:span text:style-name="T1">&quot;);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="6"/></text:span><text:span text:style-name="T1">set x = x + 1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">set y = y + 1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func replace_with_buf() {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var vi = 0;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var vi_buf;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var temp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">while (vi != 25) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">set vi_buf = vi + 25;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">set temp = vram[vi_buf];</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">set vram[vi] = temp;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">set vi = vi + 1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">func main() {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var w = 5; // </text:span><text:span text:style-name="T1">盤面の幅</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var h = 5; // </text:span><text:span text:style-name="T1">盤面の高さ</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">// </text:span><text:span text:style-name="T1">初期状態の設定</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call vram_set(w, 1, 0, 1);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call vram_set(w, 2, 1, 1);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call vram_set(w, 0, 2, 1);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call vram_set(w, 1, 2, 1);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">call vram_set(w, 2, 2, 1);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var gen_limit = 0;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">var gen = 1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">while (gen != gen_limit) {</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">call make_next_gen(w, h);</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">call replace_with_buf();</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="4"/></text:span><text:span text:style-name="T1">set gen = gen + 1;</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"><text:s text:c="2"/></text:span><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1">}</text:span></text:p>
+       <text:p text:style-name="P4"><text:span text:style-name="T1"/></text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
@@ -5060,7 +5052,7 @@ end function
      <table:table-cell table:number-columns-repeated="1023"/>
     </table:table-row>
    </table:table>
-   <table:table table:name="tokens" table:style-name="ta2">
+   <table:table table:name="tokens" table:style-name="ta1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false">
      <form:form form:name="フォーム" form:apply-filter="true" form:command-type="table" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="" xlink:href="" xlink:type="simple">
       <form:properties>
@@ -5086,13 +5078,13 @@ end function
     </office:forms>
     <table:shapes>
      <draw:control draw:z-index="3" draw:text-style-name="P1" svg:width="27.5mm" svg:height="15.4mm" svg:x="164.48mm" svg:y="4.53mm" draw:control="control4"/></table:shapes>
-    <table:table-column table:style-name="co7" table:default-cell-style-name="ce3"/>
-    <table:table-column table:style-name="co8" table:default-cell-style-name="ce3"/>
-    <table:table-column table:style-name="co9" table:default-cell-style-name="ce13"/>
-    <table:table-column table:style-name="co10" table:default-cell-style-name="ce13"/>
-    <table:table-column table:style-name="co11" table:number-columns-repeated="2" table:default-cell-style-name="ce3"/>
-    <table:table-column table:style-name="co12" table:default-cell-style-name="ce3"/>
-    <table:table-column table:style-name="co13" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co8" table:default-cell-style-name="ce13"/>
+    <table:table-column table:style-name="co9" table:number-columns-repeated="2" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co10" table:default-cell-style-name="ce3"/>
+    <table:table-column table:style-name="co11" table:default-cell-style-name="ce13"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="6" table:default-cell-style-name="ce39"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="1010" table:default-cell-style-name="ce13"/>
     <table:table-row table:style-name="ro1">
@@ -5102,8 +5094,8 @@ end function
       <text:p>output:</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce1">
-      <draw:custom-shape table:end-cell-address="tokens.F6" table:end-x="18.53mm" table:end-y="0.54mm" draw:z-index="2" draw:name="tree" draw:style-name="gr3" draw:text-style-name="P6" svg:width="36.35mm" svg:height="20.74mm" svg:x="4.78mm" svg:y="2.39mm">
-       <text:p text:style-name="P2"><text:span text:style-name="T3">.</text:span></text:p>
+      <draw:custom-shape table:end-cell-address="tokens.F6" table:end-x="18.53mm" table:end-y="0.54mm" draw:z-index="2" draw:name="tree" draw:style-name="gr3" draw:text-style-name="P7" svg:width="36.33mm" svg:height="20.74mm" svg:x="4.8mm" svg:y="2.39mm">
+       <text:p text:style-name="P6">.</text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
@@ -5121,8 +5113,8 @@ end function
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="8"/>
      <table:table-cell>
-      <draw:custom-shape table:end-cell-address="tokens.J10" table:end-x="15.2mm" table:end-y="2.92mm" draw:z-index="1" draw:name="log" draw:style-name="gr4" draw:text-style-name="P7" svg:width="30.48mm" svg:height="10.35mm" svg:x="7.31mm" svg:y="1.61mm">
-       <text:p text:style-name="P2"><text:span text:style-name="T3">.</text:span></text:p>
+      <draw:custom-shape table:end-cell-address="tokens.K18" table:end-x="20.68mm" table:end-y="3.99mm" draw:z-index="1" draw:name="log" draw:style-name="gr4" draw:text-style-name="P3" svg:width="58.52mm" svg:height="47.52mm" svg:x="7.31mm" svg:y="1.63mm">
+       <text:p text:style-name="P2">.</text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
@@ -5135,7 +5127,7 @@ end function
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
    </table:table>
-   <table:table table:name="tree" table:style-name="ta2">
+   <table:table table:name="tree" table:style-name="ta1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false">
      <form:form form:name="フォーム" form:apply-filter="true" form:command-type="table" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="" xlink:href="" xlink:type="simple">
       <form:properties>
@@ -5161,24 +5153,24 @@ end function
     </office:forms>
     <table:shapes>
      <draw:control draw:z-index="0" draw:text-style-name="P1" svg:width="41.03mm" svg:height="18.07mm" svg:x="125.73mm" svg:y="4.84mm" draw:control="control5"/>
-     <draw:custom-shape draw:z-index="1" draw:name="log" draw:style-name="gr5" draw:text-style-name="P8" svg:width="94.71mm" svg:height="55.97mm" svg:x="125.76mm" svg:y="28.71mm">
-      <text:p text:style-name="P2"><text:span text:style-name="T4">.</text:span></text:p>
-      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
+     <draw:custom-shape draw:z-index="1" draw:name="log" draw:style-name="gr5" draw:text-style-name="P9" svg:width="94.71mm" svg:height="55.97mm" svg:x="125.76mm" svg:y="28.71mm">
+      <text:p text:style-name="P8">.</text:p>
+      <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:mirror-horizontal="false" draw:mirror-vertical="false" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
      </draw:custom-shape>
      <draw:control draw:z-index="3" draw:text-style-name="P1" svg:width="34.17mm" svg:height="16.47mm" svg:x="176.58mm" svg:y="5.84mm" draw:control="control6"/></table:shapes>
-    <table:table-column table:style-name="co14" table:default-cell-style-name="ce21"/>
     <table:table-column table:style-name="co12" table:default-cell-style-name="ce21"/>
-    <table:table-column table:style-name="co7" table:default-cell-style-name="ce24"/>
-    <table:table-column table:style-name="co15" table:default-cell-style-name="ce21"/>
-    <table:table-column table:style-name="co16" table:default-cell-style-name="ce21"/>
-    <table:table-column table:style-name="co17" table:default-cell-style-name="ce24"/>
-    <table:table-column table:style-name="co18" table:number-columns-repeated="4" table:default-cell-style-name="ce53"/>
+    <table:table-column table:style-name="co10" table:default-cell-style-name="ce21"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce24"/>
+    <table:table-column table:style-name="co13" table:default-cell-style-name="ce21"/>
+    <table:table-column table:style-name="co14" table:default-cell-style-name="ce21"/>
+    <table:table-column table:style-name="co15" table:default-cell-style-name="ce24"/>
+    <table:table-column table:style-name="co16" table:number-columns-repeated="4" table:default-cell-style-name="ce53"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="2" table:default-cell-style-name="ce53"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="1012" table:default-cell-style-name="ce24"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell table:style-name="ce19">
-      <draw:custom-shape table:end-cell-address="tree.B5" table:end-x="14.05mm" table:end-y="1.33mm" draw:z-index="2" draw:name="tree" draw:style-name="gr6" draw:text-style-name="P9" svg:width="33.91mm" svg:height="17.32mm" svg:x="2.47mm" svg:y="2.07mm">
-       <text:p text:style-name="P2"><text:span text:style-name="T4">.</text:span></text:p>
+      <draw:custom-shape table:end-cell-address="tree.B5" table:end-x="14.05mm" table:end-y="1.33mm" draw:z-index="2" draw:name="tree" draw:style-name="gr6" draw:text-style-name="P11" svg:width="33.91mm" svg:height="17.32mm" svg:x="2.47mm" svg:y="2.07mm">
+       <text:p text:style-name="P10">.</text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
@@ -5187,8 +5179,8 @@ end function
       <text:p>output:</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="ce26">
-      <draw:custom-shape table:end-cell-address="tree.E5" table:end-x="11.51mm" table:end-y="1.06mm" draw:z-index="4" draw:name="asm" draw:style-name="gr7" draw:text-style-name="P9" svg:width="33.75mm" svg:height="16.2mm" svg:x="3.36mm" svg:y="2.92mm">
-       <text:p text:style-name="P2"><text:span text:style-name="T4">.</text:span></text:p>
+      <draw:custom-shape table:end-cell-address="tree.E5" table:end-x="11.51mm" table:end-y="1.06mm" draw:z-index="4" draw:name="asm" draw:style-name="gr7" draw:text-style-name="P11" svg:width="33.73mm" svg:height="16.2mm" svg:x="3.38mm" svg:y="2.92mm">
+       <text:p text:style-name="P10">.</text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
@@ -5223,7 +5215,7 @@ end function
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
    </table:table>
-   <table:table table:name="asm" table:style-name="ta2">
+   <table:table table:name="asm" table:style-name="ta1">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false">
      <form:form form:name="フォーム" form:apply-filter="true" form:command-type="table" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="" xlink:href="" xlink:type="simple">
       <form:properties>
@@ -5250,32 +5242,32 @@ end function
     <table:shapes>
      <draw:control draw:z-index="0" draw:text-style-name="P1" svg:width="41.03mm" svg:height="13.02mm" svg:x="194.89mm" svg:y="4.31mm" draw:control="control7"/>
      <draw:control draw:z-index="2" draw:text-style-name="P1" svg:width="36.65mm" svg:height="11.87mm" svg:x="240.85mm" svg:y="4.81mm" draw:control="control8"/></table:shapes>
-    <table:table-column table:style-name="co19" table:default-cell-style-name="ce37"/>
-    <table:table-column table:style-name="co8" table:default-cell-style-name="ce37"/>
-    <table:table-column table:style-name="co7" table:default-cell-style-name="ce37"/>
+    <table:table-column table:style-name="co17" table:default-cell-style-name="ce37"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="ce37"/>
+    <table:table-column table:style-name="co5" table:default-cell-style-name="ce37"/>
+    <table:table-column table:style-name="co18" table:default-cell-style-name="ce37"/>
+    <table:table-column table:style-name="co19" table:default-cell-style-name="ce43"/>
     <table:table-column table:style-name="co20" table:default-cell-style-name="ce37"/>
-    <table:table-column table:style-name="co21" table:default-cell-style-name="ce43"/>
+    <table:table-column table:style-name="co21" table:default-cell-style-name="ce37"/>
     <table:table-column table:style-name="co22" table:default-cell-style-name="ce37"/>
     <table:table-column table:style-name="co23" table:default-cell-style-name="ce37"/>
     <table:table-column table:style-name="co24" table:default-cell-style-name="ce37"/>
-    <table:table-column table:style-name="co25" table:default-cell-style-name="ce37"/>
-    <table:table-column table:style-name="co26" table:default-cell-style-name="ce37"/>
-    <table:table-column table:style-name="co27" table:default-cell-style-name="ce44"/>
-    <table:table-column table:style-name="co26" table:number-columns-repeated="4" table:default-cell-style-name="ce57"/>
+    <table:table-column table:style-name="co25" table:default-cell-style-name="ce44"/>
+    <table:table-column table:style-name="co24" table:number-columns-repeated="4" table:default-cell-style-name="ce57"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="2" table:default-cell-style-name="ce57"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="1007" table:default-cell-style-name="ce44"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell>
-      <draw:custom-shape table:end-cell-address="asm.B22" table:end-x="8.9mm" table:end-y="2.33mm" draw:z-index="3" draw:name="asm" draw:style-name="gr8" draw:text-style-name="P6" svg:width="31.45mm" svg:height="94.51mm" svg:x="3.87mm" svg:y="2.66mm">
-       <text:p text:style-name="P2"><text:span text:style-name="T3">.</text:span></text:p>
+      <draw:custom-shape table:end-cell-address="asm.B22" table:end-x="8.9mm" table:end-y="2.33mm" draw:z-index="3" draw:name="asm" draw:style-name="gr8" draw:text-style-name="P7" svg:width="31.45mm" svg:height="94.51mm" svg:x="3.87mm" svg:y="2.66mm">
+       <text:p text:style-name="P6">.</text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="3"/>
      <table:table-cell table:style-name="ce42"/>
      <table:table-cell>
-      <draw:custom-shape table:end-cell-address="asm.I22" table:end-x="6.54mm" table:end-y="3.38mm" draw:z-index="4" draw:name="exe" draw:style-name="gr9" draw:text-style-name="P6" svg:width="64.28mm" svg:height="94.51mm" svg:x="3.5mm" svg:y="3.71mm">
-       <text:p text:style-name="P2"><text:span text:style-name="T3">.</text:span></text:p>
+      <draw:custom-shape table:end-cell-address="asm.I22" table:end-x="6.54mm" table:end-y="3.38mm" draw:z-index="4" draw:name="exe" draw:style-name="gr9" draw:text-style-name="P7" svg:width="64.28mm" svg:height="94.51mm" svg:x="3.5mm" svg:y="3.71mm">
+       <text:p text:style-name="P6">.</text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
@@ -5296,8 +5288,8 @@ end function
     <table:table-row table:style-name="ro1">
      <table:table-cell table:number-columns-repeated="11"/>
      <table:table-cell>
-      <draw:custom-shape table:end-cell-address="asm.O11" table:end-x="10.27mm" table:end-y="1.23mm" draw:z-index="1" draw:name="log" draw:style-name="gr10" draw:text-style-name="P7" svg:width="77.51mm" svg:height="20.72mm" svg:x="5.47mm" svg:y="3.11mm">
-       <text:p text:style-name="P2"><text:span text:style-name="T3">.</text:span></text:p>
+      <draw:custom-shape table:end-cell-address="asm.O11" table:end-x="10.27mm" table:end-y="1.23mm" draw:z-index="1" draw:name="log" draw:style-name="gr10" draw:text-style-name="P3" svg:width="77.49mm" svg:height="20.7mm" svg:x="5.49mm" svg:y="3.13mm">
+       <text:p text:style-name="P2">.</text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
@@ -5317,15 +5309,16 @@ end function
      <table:table-cell table:number-columns-repeated="1024"/>
     </table:table-row>
    </table:table>
-   <table:table table:name="exe" table:style-name="ta2">
+   <table:table table:name="exe" table:style-name="ta1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <table:table-column table:style-name="co26" table:default-cell-style-name="ce37"/>
+    <table:table-column table:style-name="co27" table:default-cell-style-name="ce37"/>
     <table:table-column table:style-name="co28" table:default-cell-style-name="ce37"/>
-    <table:table-column table:style-name="co29" table:default-cell-style-name="ce37"/>
-    <table:table-column table:style-name="co30" table:default-cell-style-name="ce37"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="1018" table:default-cell-style-name="ce44"/>
     <table:table-row table:style-name="ro1">
      <table:table-cell>
-      <draw:custom-shape table:end-cell-address="exe.B10" table:end-x="3.67mm" table:end-y="1.59mm" draw:z-index="0" draw:name="exe" draw:style-name="gr11" draw:text-style-name="P6" svg:width="30.03mm" svg:height="38.5mm" svg:x="3.87mm" svg:y="3.73mm">
-       <text:p text:style-name="P2"><text:span text:style-name="T3">.</text:span></text:p>
+      <draw:custom-shape table:end-cell-address="exe.B10" table:end-x="3.67mm" table:end-y="1.59mm" draw:z-index="0" draw:name="exe" draw:style-name="gr11" draw:text-style-name="P7" svg:width="30.03mm" svg:height="38.5mm" svg:x="3.87mm" svg:y="3.73mm">
+       <text:p text:style-name="P6">.</text:p>
        <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
       </draw:custom-shape>
      </table:table-cell>
@@ -5338,7 +5331,7 @@ end function
      <table:table-cell table:number-columns-repeated="1021"/>
     </table:table-row>
    </table:table>
-   <table:table table:name="vm" table:style-name="ta4">
+   <table:table table:name="vm" table:style-name="ta2">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false">
      <form:form form:name="フォーム" form:apply-filter="true" form:command-type="table" form:control-implementation="ooo:com.sun.star.form.component.Form" office:target-frame="" xlink:href="" xlink:type="simple">
       <form:properties>
@@ -5382,27 +5375,27 @@ end function
      <draw:control draw:z-index="0" draw:text-style-name="P1" svg:width="24.86mm" svg:height="14.9mm" svg:x="225.91mm" svg:y="16.32mm" draw:control="control9"/>
      <draw:control draw:z-index="1" draw:text-style-name="P1" svg:width="24.22mm" svg:height="14.68mm" svg:x="226.39mm" svg:y="36.64mm" draw:control="control10"/>
      <draw:control draw:z-index="2" draw:text-style-name="P1" svg:width="17.39mm" svg:height="14mm" svg:x="226.56mm" svg:y="57.87mm" draw:control="control11"/>
-     <draw:custom-shape draw:z-index="3" draw:name="log" draw:style-name="gr12" draw:text-style-name="P10" svg:width="43.71mm" svg:height="15.93mm" svg:x="227.02mm" svg:y="78.9mm">
-      <text:p><text:span text:style-name="T3">.</text:span></text:p>
+     <draw:custom-shape draw:z-index="3" draw:name="log" draw:style-name="gr12" draw:text-style-name="P13" svg:width="72.5mm" svg:height="69.05mm" svg:x="227.02mm" svg:y="78.9mm">
+      <text:p text:style-name="P12"><text:span text:style-name="T2">.</text:span></text:p>
       <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
      </draw:custom-shape>
      <draw:control draw:z-index="4" draw:text-style-name="P1" svg:width="18.62mm" svg:height="13.81mm" svg:x="247.94mm" svg:y="58.17mm" draw:control="control12"/></table:shapes>
-    <table:table-column table:style-name="co31" table:default-cell-style-name="ce47"/>
+    <table:table-column table:style-name="co29" table:default-cell-style-name="ce47"/>
+    <table:table-column table:style-name="co30" table:default-cell-style-name="ce50"/>
+    <table:table-column table:style-name="co31" table:default-cell-style-name="ce50"/>
+    <table:table-column table:style-name="co27" table:default-cell-style-name="ce50"/>
     <table:table-column table:style-name="co32" table:default-cell-style-name="ce50"/>
-    <table:table-column table:style-name="co33" table:default-cell-style-name="ce50"/>
-    <table:table-column table:style-name="co29" table:default-cell-style-name="ce50"/>
-    <table:table-column table:style-name="co34" table:default-cell-style-name="ce50"/>
-    <table:table-column table:style-name="co35" table:default-cell-style-name="ce58"/>
-    <table:table-column table:style-name="co36" table:default-cell-style-name="ce58"/>
-    <table:table-column table:style-name="co15" table:default-cell-style-name="ce50"/>
-    <table:table-column table:style-name="co37" table:default-cell-style-name="ce50"/>
-    <table:table-column table:style-name="co9" table:default-cell-style-name="ce58"/>
-    <table:table-column table:style-name="co38" table:number-columns-repeated="2" table:default-cell-style-name="ce58"/>
-    <table:table-column table:style-name="co30" table:default-cell-style-name="ce58"/>
-    <table:table-column table:style-name="co39" table:default-cell-style-name="ce58"/>
-    <table:table-column table:style-name="co41" table:default-cell-style-name="ce50"/>
-    <table:table-column table:style-name="co42" table:number-columns-repeated="8" table:default-cell-style-name="ce50"/>
-    <table:table-column table:style-name="co42" table:number-columns-repeated="3" table:default-cell-style-name="ce117"/>
+    <table:table-column table:style-name="co33" table:default-cell-style-name="ce58"/>
+    <table:table-column table:style-name="co34" table:default-cell-style-name="ce58"/>
+    <table:table-column table:style-name="co13" table:default-cell-style-name="ce50"/>
+    <table:table-column table:style-name="co35" table:default-cell-style-name="ce50"/>
+    <table:table-column table:style-name="co7" table:default-cell-style-name="ce58"/>
+    <table:table-column table:style-name="co36" table:number-columns-repeated="2" table:default-cell-style-name="ce58"/>
+    <table:table-column table:style-name="co28" table:default-cell-style-name="ce58"/>
+    <table:table-column table:style-name="co37" table:default-cell-style-name="ce58"/>
+    <table:table-column table:style-name="co38" table:default-cell-style-name="ce50"/>
+    <table:table-column table:style-name="co39" table:number-columns-repeated="8" table:default-cell-style-name="ce50"/>
+    <table:table-column table:style-name="co39" table:number-columns-repeated="3" table:default-cell-style-name="ce117"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="6" table:default-cell-style-name="ce117"/>
     <table:table-column table:style-name="co4" table:number-columns-repeated="992" table:default-cell-style-name="ce50"/>
     <table:table-row table:style-name="ro1">
