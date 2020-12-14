@@ -11,7 +11,7 @@ dim g_exe_code as string
 
 Sub onclick_assemble
     Utils.setup()
-    Utils.init_log2()
+    Utils.init_log()
 
     dim exe_code as string
     exe_code = assemble()
@@ -24,7 +24,7 @@ End Sub
 
 
 sub onclick_clear()
-    Utils.init_log2()
+    Utils.init_log()
     _clear_output()
 end sub
 

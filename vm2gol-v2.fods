@@ -262,7 +262,7 @@ end sub
 sub reset()
     dim ri
 
-    Utils.init_log2()
+    Utils.init_log()
     Utils.log(&quot;&lt;&lt;-- init_log()&quot;)
 
     &apos; 初期化
@@ -1493,7 +1493,7 @@ end sub
 
 
 &apos; TODO Use clear_log_box()
-sub init_log2()
+sub init_log()
     dim box
     box = _get_shape_by_name(&quot;log&quot;)
     box.string = &quot;&quot;
@@ -1631,7 +1631,7 @@ end sub
 sub onclick_step_n
     Utils.setup()
     Vm.setup()
-    init_log2()
+    Utils.init_log()
 
     _lock()
 
@@ -1876,7 +1876,7 @@ dim g_exe_code as string
 
 Sub onclick_assemble
     Utils.setup()
-    Utils.init_log2()
+    Utils.init_log()
 
     dim exe_code as string
     exe_code = assemble()
@@ -1889,7 +1889,7 @@ End Sub
 
 
 sub onclick_clear()
-    Utils.init_log2()
+    Utils.init_log()
     _clear_output()
 end sub
 
@@ -2032,7 +2032,7 @@ dim g_label_id as integer
 
 sub onclick_codegen
     Utils.setup()
-    Utils.init_log2()
+    Utils.init_log()
 
     dim asm_code as string
     asm_code = codegen()
@@ -2046,7 +2046,7 @@ end sub
 &apos; --------------------------------
 
 sub onclick_clear()
-    Utils.init_log2()
+    Utils.init_log()
     _clear_output()
 end sub
 
@@ -2896,7 +2896,7 @@ end function
       <ooo:source-code>Option Explicit
 
 sub onclick_clear()
-    Utils.init_log2()
+    Utils.init_log()
     _clear_output()
 end sub
 
@@ -2905,7 +2905,7 @@ sub onclick_tokenize()
     dim src, sh_src, sh_tok
 
     Utils.setup()
-    Utils.init_log2()
+    Utils.init_log()
 
     sh_src = Utils.get_sheet(&quot;src&quot;)
     sh_tok = Utils.get_sheet(&quot;tokens&quot;)
@@ -3445,7 +3445,7 @@ Sub onclick_parse()
     dim _tokens_sheet, tree
 
     Utils.setup()
-    Utils.init_log2()
+    Utils.init_log()
 
     _tokens_sheet = Utils.get_sheet(&quot;tokens&quot;)
     sh_tree = Utils.get_sheet(&quot;tree&quot;)
@@ -3465,7 +3465,7 @@ End Sub
 
 
 sub onclick_clear()
-    Utils.init_log2()
+    Utils.init_log()
     _clear_output()
 end sub
 

@@ -3,7 +3,7 @@ rem -*- mode: basic -*-
 Option Explicit
 
 sub onclick_clear()
-    Utils.init_log2()
+    Utils.init_log()
     _clear_output()
 end sub
 
@@ -12,7 +12,7 @@ sub onclick_tokenize()
     dim src, sh_src, sh_tok
 
     Utils.setup()
-    Utils.init_log2()
+    Utils.init_log()
 
     sh_src = Utils.get_sheet("src")
     sh_tok = Utils.get_sheet("tokens")

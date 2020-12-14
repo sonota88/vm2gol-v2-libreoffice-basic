@@ -44,7 +44,7 @@ end sub
 sub reset()
     dim ri
 
-    Utils.init_log2()
+    Utils.init_log()
     Utils.log("<<-- init_log()")
 
     ' 初期化

@@ -12,7 +12,7 @@ Sub onclick_parse()
     dim _tokens_sheet, tree
 
     Utils.setup()
-    Utils.init_log2()
+    Utils.init_log()
 
     _tokens_sheet = Utils.get_sheet("tokens")
     sh_tree = Utils.get_sheet("tree")
@@ -32,7 +32,7 @@ End Sub
 
 
 sub onclick_clear()
-    Utils.init_log2()
+    Utils.init_log()
     _clear_output()
 end sub
 

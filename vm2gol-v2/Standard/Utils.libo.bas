@@ -495,7 +495,7 @@ end sub
 
 
 ' TODO Use clear_log_box()
-sub init_log2()
+sub init_log()
     dim box
     box = _get_shape_by_name("log")
     box.string = ""

@@ -48,7 +48,7 @@ end sub
 sub onclick_step_n
     Utils.setup()
     Vm.setup()
-    init_log2()
+    Utils.init_log()
 
     _lock()
 

@@ -10,7 +10,7 @@ dim g_label_id as integer
 
 sub onclick_codegen
     Utils.setup()
-    Utils.init_log2()
+    Utils.init_log()
 
     dim asm_code as string
     asm_code = codegen()
@@ -24,7 +24,7 @@ end sub
 ' --------------------------------
 
 sub onclick_clear()
-    Utils.init_log2()
+    Utils.init_log()
     _clear_output()
 end sub
 
