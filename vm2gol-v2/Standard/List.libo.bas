@@ -38,17 +38,13 @@ function create
 end function
 
 
-rem TODO Use redim
 function _extend(self)
     dim newcap as integer
     newcap = self.cap * 2
 
-    dim newxs(newcap - 1)
-
-    dim i as integer
-    for i = 0 to self.cap - 1
-        newxs(i) = List.get_(self, i)
-    next
+    dim newxs
+    newxs = self._xs
+    redim preserve newxs(newcap - 1)
 
     self._xs = newxs
     self.cap = newcap
