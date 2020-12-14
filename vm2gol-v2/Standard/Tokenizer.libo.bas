@@ -287,7 +287,6 @@ end function
 
 
 function _match_int(rest_) as integer
-    dim retval
     dim pos, c
 
     pos = 0
@@ -334,7 +333,7 @@ end function
 
 
 function is_ident_char(c) as boolean
-    dim i, retval
+    dim i
     i = Instr("0123456789abcdefghijklmnopqrstuvwxyz_[]", c)
     is_ident_char = i <> 0
 end function
