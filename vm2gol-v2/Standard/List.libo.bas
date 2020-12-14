@@ -39,21 +39,27 @@ end function
 
 
 rem TODO Use redim
+function _extend(self)
+    dim newcap as integer
+    newcap = self.cap * 2
+
+    dim newxs(newcap - 1)
+
+    dim i as integer
+    for i = 0 to self.cap - 1
+        newxs(i) = List.get_(self, i)
+    next
+
+    self._xs = newxs
+    self.cap = newcap
+    
+    _extend = self
+end function
+
+
 sub add(self, val)
     if self.cap <= self.len then
-        ' raise("List のサイズ上限を超えました")
-
-        dim newcap
-        newcap = self.cap * 2
-        dim newxs(newcap - 1)
-        dim i
-        i = -1
-        do while i < self.cap - 1
-            i = i + 1
-            newxs(i) = List.get_(self, i)
-        loop
-        self._xs = newxs
-        self.cap = newcap
+        self = _extend(self)
     end if
 
     self._xs(self.len) = val
