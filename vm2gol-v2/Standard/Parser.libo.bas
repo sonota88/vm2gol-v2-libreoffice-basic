@@ -78,8 +78,8 @@ function peek(optional offset as integer)
 
     dim t
     t = Token_new()
-    t.kind = cell_get(tokens_sheet, tok_ci0, tok_ri0 + pos + offset)
-    t.val = cell_get(tokens_sheet, tok_ci0 + 1, tok_ri0 + pos + offset)
+    t.kind = cell_get(tokens_sheet, tok_ci0    , tok_ri0 + pos + offset)
+    t.val  = cell_get(tokens_sheet, tok_ci0 + 1, tok_ri0 + pos + offset)
     peek = t
 end function
 
