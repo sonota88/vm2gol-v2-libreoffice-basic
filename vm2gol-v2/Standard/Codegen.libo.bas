@@ -2,7 +2,6 @@ rem -*- mode: basic -*-
 
 Option Explicit
 
-dim asm_ri as integer
 const CI_OUT_TREE = 3
 
 dim g_asm_code as string
@@ -634,8 +633,6 @@ function codegen as string
 
     g_asm_code = ""
     g_label_id = 0
-
-    asm_ri = 0
 
     clear_cell_range(sh_tree, CI_OUT_TREE, 0, CI_OUT_TREE, 2000)
     clear_cell_range(sh_asm , 0, 0, 0, 2000)
