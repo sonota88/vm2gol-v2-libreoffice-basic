@@ -208,7 +208,7 @@ end function
 function _parse_func
     Utils.logkv("-->> _parse_func", peek(1).val)
 
-    dim retval
+    dim rv
     dim args, stmts
 
     _consume "func"
@@ -240,13 +240,13 @@ function _parse_func
 
     _consume "}"
 
-    retval = List.new_()
-    List.add(retval, "func")
-    List.add(retval, fn_name)
-    List.add(retval, args)
-    List.add(retval, stmts)
+    rv = List.new_()
+    List.add(rv, "func")
+    List.add(rv, fn_name)
+    List.add(rv, args)
+    List.add(rv, stmts)
 
-    _parse_func = retval
+    _parse_func = rv
 end function
 
 
@@ -658,25 +658,25 @@ end function
 
 
 function _parse_top_stmt()
-    dim retval ' TODO rename => rv
+    dim rv
 
     dim t
     t = peek(0)
 
     if t.val = "func" then
-        retval = _parse_func()
+        rv = _parse_func()
     else
         __unexpected_token__
     end if
 
-    _parse_top_stmt = retval
+    _parse_top_stmt = rv
 end function
 
 
 function _parse_top_stmts(sheet)
     Utils.log("-->> _parse_top_stmts")
 
-    dim retval
+    dim rv
     dim t, top_stmts
 
     top_stmts = List.new_()
@@ -690,8 +690,8 @@ function _parse_top_stmts(sheet)
         List.add(top_stmts, _parse_top_stmt())
     loop
 
-    retval = top_stmts
-    _parse_top_stmts = retval
+    rv = top_stmts
+    _parse_top_stmts = rv
 end function
 
 
