@@ -38,8 +38,9 @@ end sub
 ' --------------------------------
 
 function match_int(str as string) as boolean
-    dim rv
-    dim i, c
+    dim rv as boolean
+    dim i as integer
+    dim c as string
 
     rv = true
     for i = 0 to len(str) - 1
@@ -58,7 +59,7 @@ end function
 
 function _to_fn_arg_addr(fn_arg_names, fn_arg_name)
     dim rv
-    dim i
+    dim i as integer
 
     i = List.index(fn_arg_names, fn_arg_name)
     rv = "[bp+" & (i + 2) & "]"
@@ -69,7 +70,7 @@ end function
 
 function _to_lvar_addr(lvar_names, lvar_name)
     dim rv
-    dim i
+    dim i as integer
 
     i = List.index(lvar_names, lvar_name)
     rv = "[bp-" & (i + 1) & "]"
@@ -251,7 +252,7 @@ end sub
 
 sub _gen_expr_eq
     g_label_id = g_label_id + 1
-    dim label_id
+    dim label_id as integer
     label_id = g_label_id
 
     dim label_end  as string
@@ -279,7 +280,7 @@ end sub
 
 sub _gen_expr_neq
     g_label_id = g_label_id + 1
-    dim label_id
+    dim label_id as integer
     label_id = g_label_id
 
     dim label_end  as string
