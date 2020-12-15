@@ -3631,10 +3631,10 @@ function _parse_func
 
     _consume &quot;func&quot;
 
-    dim t, func_name &apos; TODO rename =&gt; fn_name
+    dim t, fn_name
     t = peek(0)
     pos = pos + 1
-    func_name = t.val
+    fn_name = t.val
 
     _consume &quot;(&quot;
     args = _parse_args()
@@ -3660,7 +3660,7 @@ function _parse_func
 
     retval = List.new_()
     List.add(retval, &quot;func&quot;)
-    List.add(retval, func_name)
+    List.add(retval, fn_name)
     List.add(retval, args)
     List.add(retval, stmts)
 

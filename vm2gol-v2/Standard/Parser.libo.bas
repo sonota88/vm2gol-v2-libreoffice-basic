@@ -213,10 +213,10 @@ function _parse_func
 
     _consume "func"
 
-    dim t, func_name ' TODO rename => fn_name
+    dim t, fn_name
     t = peek(0)
     pos = pos + 1
-    func_name = t.val
+    fn_name = t.val
 
     _consume "("
     args = _parse_args()
@@ -242,7 +242,7 @@ function _parse_func
 
     retval = List.new_()
     List.add(retval, "func")
-    List.add(retval, func_name)
+    List.add(retval, fn_name)
     List.add(retval, args)
     List.add(retval, stmts)
 
