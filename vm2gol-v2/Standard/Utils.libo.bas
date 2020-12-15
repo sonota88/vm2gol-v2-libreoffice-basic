@@ -296,7 +296,7 @@ function char_at(str as string, index as integer) as string
     dim rv as string
 
     if (index < 0 or len(str) <= index) then
-        rv = "invalid_index"
+        rv = ""
     else
         rv = right(left(str, index + 1), 1)
     end if
