@@ -263,7 +263,7 @@ sub reset()
     dim ri
 
     Utils.init_log()
-    Utils.log(&quot;&lt;&lt;-- init_log()&quot;)
+    Utils.log &quot;.&quot;
 
     &apos; 初期化
     env_set(&quot;pc&quot;, 0)
@@ -1890,13 +1890,15 @@ End Sub
 
 sub onclick_clear()
     Utils.init_log()
+    Utils.log &quot;.&quot;
+
     _clear_output()
 end sub
 
 
 sub _clear_output
-    box_text_set(&quot;asm&quot;, &quot;exe&quot;, &quot;&quot;)
-    box_text_set(&quot;exe&quot;, &quot;exe&quot;, &quot;&quot;)
+    box_text_set(&quot;asm&quot;, &quot;exe&quot;, &quot;.&quot;)
+    box_text_set(&quot;exe&quot;, &quot;exe&quot;, &quot;.&quot;)
 end sub
 
 &apos; --------------------------------
@@ -2047,13 +2049,15 @@ end sub
 
 sub onclick_clear()
     Utils.init_log()
+    Utils.log &quot;.&quot;
+
     _clear_output()
 end sub
 
 
 sub _clear_output
-    box_text_set(&quot;tree&quot;, &quot;asm&quot;, &quot;&quot;)
-    box_text_set(&quot;asm&quot; , &quot;asm&quot;, &quot;&quot;)
+    box_text_set(&quot;tree&quot;, &quot;asm&quot;, &quot;.&quot;)
+    box_text_set(&quot;asm&quot; , &quot;asm&quot;, &quot;.&quot;)
 end sub
 
 &apos; --------------------------------
@@ -2882,6 +2886,8 @@ end function
 
 sub onclick_clear()
     Utils.init_log()
+    Utils.log &quot;.&quot;
+
     _clear_output()
 end sub
 
@@ -3451,13 +3457,15 @@ End Sub
 
 sub onclick_clear()
     Utils.init_log()
+    Utils.log &quot;.&quot;
+
     _clear_output()
 end sub
 
 
 sub _clear_output
-    box_text_set(&quot;tokens&quot;, &quot;tree&quot;, &quot;&quot;)
-    box_text_set(&quot;tree&quot;  , &quot;tree&quot;, &quot;&quot;)
+    box_text_set(&quot;tokens&quot;, &quot;tree&quot;, &quot;.&quot;)
+    box_text_set(&quot;tree&quot;  , &quot;tree&quot;, &quot;.&quot;)
 end sub
 
 

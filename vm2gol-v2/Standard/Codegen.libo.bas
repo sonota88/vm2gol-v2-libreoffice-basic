@@ -25,13 +25,15 @@ end sub
 
 sub onclick_clear()
     Utils.init_log()
+    Utils.log "."
+
     _clear_output()
 end sub
 
 
 sub _clear_output
-    box_text_set("tree", "asm", "")
-    box_text_set("asm" , "asm", "")
+    box_text_set("tree", "asm", ".")
+    box_text_set("asm" , "asm", ".")
 end sub
 
 ' --------------------------------

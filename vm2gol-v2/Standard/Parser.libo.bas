@@ -33,13 +33,15 @@ End Sub
 
 sub onclick_clear()
     Utils.init_log()
+    Utils.log "."
+
     _clear_output()
 end sub
 
 
 sub _clear_output
-    box_text_set("tokens", "tree", "")
-    box_text_set("tree"  , "tree", "")
+    box_text_set("tokens", "tree", ".")
+    box_text_set("tree"  , "tree", ".")
 end sub
 
 

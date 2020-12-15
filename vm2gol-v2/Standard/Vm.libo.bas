@@ -45,7 +45,7 @@ sub reset()
     dim ri
 
     Utils.init_log()
-    Utils.log("<<-- init_log()")
+    Utils.log "."
 
     ' 初期化
     env_set("pc", 0)

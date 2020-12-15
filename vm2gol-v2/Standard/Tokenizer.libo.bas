@@ -4,6 +4,8 @@ Option Explicit
 
 sub onclick_clear()
     Utils.init_log()
+    Utils.log "."
+
     _clear_output()
 end sub
 
