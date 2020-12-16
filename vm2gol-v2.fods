@@ -1658,15 +1658,15 @@ end sub
 
 &apos; --------------------------------
 
-sub cell_text_color(sh, ci, ri, color)
+sub cell_text_color(sh, ci as integer, ri as integer, color)
     dim cell
     cell = sh.getcellByposition(ci, ri)
     cell.CharColor = color
 end sub
 
 
-function _insn_color(insn)
-    dim rv
+function _insn_color(insn as string) as long
+    dim rv as long
 
     if left(insn, 4) = &quot;jump&quot; or left(insn, 5) = &quot;call &quot; or left(insn, 3) = &quot;ret&quot; or left(insn, 4) = &quot;exit&quot; then
         rv = rgb(230, 0, 0)
