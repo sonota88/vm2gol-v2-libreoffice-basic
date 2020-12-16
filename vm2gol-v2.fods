@@ -328,19 +328,6 @@ end sub
 
 rem --------------------------------
 
-&apos; function strip(str)
-&apos;   dim retval
-&apos; 
-&apos;   if left(str, 2) = &quot;  &quot; then
-&apos;     retval = substring(str, 2)
-&apos;   else
-&apos;     retval = str
-&apos;   end if
-&apos; 
-&apos;   strip = retval
-&apos; end function
-
-
 sub set_pc(pc as integer)
     env_set(&quot;pc&quot;, pc)
 end sub
@@ -364,23 +351,6 @@ end function
 sub set_reg_b(val as integer)
     env_set(&quot;reg_b&quot;, val)
 end sub
-
-
-&apos; function get_insn_v1(pc, i) as variant
-&apos;     dim rv
-&apos;     dim cell_val, val, xs
-&apos;     cell_val = cell_get(sh_vm, G_CI_MEM_MAIN, G_RI_MEM + pc)
-&apos;     xs = split(cell_val, &quot; &quot;)
-&apos;     val = xs(i)
-&apos; 
-&apos;     if is_int(val) then
-&apos;         rv = CInt(val)
-&apos;     else
-&apos;         rv = val
-&apos;     end if
-&apos; 
-&apos;     get_insn_v1 = rv
-&apos; end function
 
 
 function _get_insn_parts(pc) as object
@@ -585,8 +555,6 @@ function run_step() as boolean
         case else
             alert_vm(&quot;184 unknown op (&quot; &amp; op &amp; &quot;)&quot;)
     end select
-
-    &apos; VmView.render()
 
     retval = false
 
@@ -891,10 +859,8 @@ sub insn_set_vram
     vt = VarType(arg2)
 
     dim val
-    &apos; if type_name_ex(arg2) = &quot;Integer&quot; then
     if vt = TYPE_INTEGER then
         val = arg2
-        &apos; elseif type_name_ex(arg2) = &quot;String&quot; then
     elseif vt = TYPE_STRING then
         if _is_bp_rel(arg2) then
             bp_delta = _bp_delta(arg2)
@@ -907,10 +873,8 @@ sub insn_set_vram
     end if
 
     vt = VarType(arg1)
-    &apos; if type_name_ex(arg1) = &quot;Integer&quot; then
     if vt = TYPE_INTEGER then
         set_vram(arg1, val)
-    &apos; elseif type_name_ex(arg1) = &quot;String&quot; then
     elseif vt = TYPE_STRING then
         if _is_bp_rel(arg1) then
             bp_delta = _bp_delta(arg1)
@@ -943,7 +907,6 @@ sub insn_get_vram
     dim vt as integer
     vt = VarType(arg2)
 
-    &apos; if type_name_ex(arg1) = &quot;Integer&quot; then
     if vt = TYPE_INTEGER then
         vram_addr = arg1
     elseif _is_bp_rel(arg1) then &apos; TODO string で分岐
@@ -1767,12 +1730,6 @@ sub _render_mem_stack(sh_vm, bp as integer, sp as integer)
 
     dim addr as integer
     dim i as integer
-    &apos;i = 0
-    &apos;for addr = 0 to STACK_SIZE - 1
-    &apos;  cell_set(sh_vm, G_CI_MEM_STACK - 1, G_RI_MEM + i, addr)
-    &apos;  cell_set(sh_vm, G_CI_MEM_STACK    , G_RI_MEM + i, 0)
-    &apos;  i = i + 1
-    &apos;next
 
     &apos; view
     dim stack_view_size
@@ -2008,8 +1965,6 @@ function assemble() as string
     lines = _filter_lines(raw_lines)
 
     label_addr_map = _make_label_addr_map(lines)
-
-    rem map_dump(label_addr_map)
 
     Utils.log(&quot;機械語コードに変換&quot;)
 

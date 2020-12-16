@@ -184,12 +184,6 @@ sub _render_mem_stack(sh_vm, bp as integer, sp as integer)
 
     dim addr as integer
     dim i as integer
-    'i = 0
-    'for addr = 0 to STACK_SIZE - 1
-    '  cell_set(sh_vm, G_CI_MEM_STACK - 1, G_RI_MEM + i, addr)
-    '  cell_set(sh_vm, G_CI_MEM_STACK    , G_RI_MEM + i, 0)
-    '  i = i + 1
-    'next
 
     ' view
     dim stack_view_size

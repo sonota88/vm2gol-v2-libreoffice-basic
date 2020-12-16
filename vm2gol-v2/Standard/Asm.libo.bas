@@ -144,8 +144,6 @@ function assemble() as string
 
     label_addr_map = _make_label_addr_map(lines)
 
-    rem map_dump(label_addr_map)
-
     Utils.log("機械語コードに変換")
 
     clear_cell_range(sh_asm, CI_OUT_ASM, 0, CI_OUT_ASM, RI_MAX)

@@ -110,19 +110,6 @@ end sub
 
 rem --------------------------------
 
-' function strip(str)
-'   dim retval
-' 
-'   if left(str, 2) = "  " then
-'     retval = substring(str, 2)
-'   else
-'     retval = str
-'   end if
-' 
-'   strip = retval
-' end function
-
-
 sub set_pc(pc as integer)
     env_set("pc", pc)
 end sub
@@ -146,23 +133,6 @@ end function
 sub set_reg_b(val as integer)
     env_set("reg_b", val)
 end sub
-
-
-' function get_insn_v1(pc, i) as variant
-'     dim rv
-'     dim cell_val, val, xs
-'     cell_val = cell_get(sh_vm, G_CI_MEM_MAIN, G_RI_MEM + pc)
-'     xs = split(cell_val, " ")
-'     val = xs(i)
-' 
-'     if is_int(val) then
-'         rv = CInt(val)
-'     else
-'         rv = val
-'     end if
-' 
-'     get_insn_v1 = rv
-' end function
 
 
 function _get_insn_parts(pc) as object
@@ -367,8 +337,6 @@ function run_step() as boolean
         case else
             alert_vm("184 unknown op (" & op & ")")
     end select
-
-    ' VmView.render()
 
     retval = false
 
@@ -673,10 +641,8 @@ sub insn_set_vram
     vt = VarType(arg2)
 
     dim val
-    ' if type_name_ex(arg2) = "Integer" then
     if vt = TYPE_INTEGER then
         val = arg2
-        ' elseif type_name_ex(arg2) = "String" then
     elseif vt = TYPE_STRING then
         if _is_bp_rel(arg2) then
             bp_delta = _bp_delta(arg2)
@@ -689,10 +655,8 @@ sub insn_set_vram
     end if
 
     vt = VarType(arg1)
-    ' if type_name_ex(arg1) = "Integer" then
     if vt = TYPE_INTEGER then
         set_vram(arg1, val)
-    ' elseif type_name_ex(arg1) = "String" then
     elseif vt = TYPE_STRING then
         if _is_bp_rel(arg1) then
             bp_delta = _bp_delta(arg1)
@@ -725,7 +689,6 @@ sub insn_get_vram
     dim vt as integer
     vt = VarType(arg2)
 
-    ' if type_name_ex(arg1) = "Integer" then
     if vt = TYPE_INTEGER then
         vram_addr = arg1
     elseif _is_bp_rel(arg1) then ' TODO string で分岐
