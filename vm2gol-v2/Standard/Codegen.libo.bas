@@ -57,8 +57,8 @@ function match_int(str as string) as boolean
 end function
 
 
-function _to_fn_arg_addr(fn_arg_names, fn_arg_name)
-    dim rv
+function _to_fn_arg_addr(fn_arg_names, fn_arg_name) as string
+    dim rv as string
     dim i as integer
 
     i = List.index(fn_arg_names, fn_arg_name)
@@ -68,8 +68,8 @@ function _to_fn_arg_addr(fn_arg_names, fn_arg_name)
 end function
 
 
-function _to_lvar_addr(lvar_names, lvar_name)
-    dim rv
+function _to_lvar_addr(lvar_names, lvar_name) as string
+    dim rv as string
     dim i as integer
 
     i = List.index(lvar_names, lvar_name)
@@ -307,7 +307,8 @@ end sub
 
 
 sub _gen_expr(fn_arg_names, lvar_names, expr)
-    dim operator, params
+    dim operator as string
+    dim params
     operator = List.head(expr)
     params   = List.rest(expr)
 
@@ -349,7 +350,8 @@ end sub
 
 
 sub _gen_call(fn_arg_names, lvar_names, stmt_rest)
-    dim fn_name, fn_args
+    dim fn_name as string
+    dim fn_args
     fn_name = List.head(stmt_rest)
     fn_args = List.rest(stmt_rest)
 
@@ -374,7 +376,8 @@ sub _gen_call_set(fn_arg_names, lvar_names, stmt_rest)
     lvar_name = List.get_(stmt_rest, 0)
     fn_temp = List.get_(stmt_rest, 1)
 
-    dim fn_name, fn_args
+    dim fn_name as string
+    dim fn_args
     fn_name = List.head(fn_temp)
     fn_args = List.rest(fn_temp)
 
@@ -396,16 +399,16 @@ sub _gen_call_set(fn_arg_names, lvar_names, stmt_rest)
 end sub
 
 
-function _extract_vram_param(str)
+function _extract_vram_param(str as string) as string
     _extract_vram_param = substring(str, 5, len(str) - 1)
 end function
 
 
-function _match_vram_addr(str) as boolean
+function _match_vram_addr(str as string) as boolean
     dim rv as boolean
 
     if left(str, 5) = "vram[" then
-        dim param
+        dim param as string
         param = _extract_vram_param(str)
         rv = is_int(param)
     else
@@ -416,7 +419,7 @@ function _match_vram_addr(str) as boolean
 end function
 
 
-function _match_vram_ref(str) as boolean
+function _match_vram_ref(str as string) as boolean
     dim rv as boolean
   
     if left(str, 5) = "vram[" then
@@ -531,7 +534,7 @@ sub _gen_return(lvar_names, stmt_rest)
 end sub
 
 
-sub _gen_vm_comment(comment)
+sub _gen_vm_comment(comment as string)
     _puts "  _cmt " & replace_char(comment, " ", "~")
 end sub
 
@@ -657,6 +660,6 @@ function read_tree_json
 end function
 
 
-sub _puts(aline)
+sub _puts(aline as string)
     g_asm_code = g_asm_code & aline & lf()
 end sub
