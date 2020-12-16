@@ -7,31 +7,39 @@ dim G_CI_BP_POS as integer
 ' --------------------------------
 
 sub onclick_reset()
+    _lock()
+
     Utils.setup()
     Vm.setup()
 
     Vm.reset()
 
     render()
+
+    _unlock()
 end sub
 
 
 sub onclick_load()
+    _lock()
+
     Utils.setup()
     Vm.setup()
 
     Vm.load_program()
     render()
+
+    _unlock()
 end sub
 
 
 sub onclick_step()
     on local error goto on_error__onclick_step
 
+    _lock()
+
     Utils.setup()
     Vm.setup()
-
-    _lock()
 
     Vm.run_step()
     VmView.render()
