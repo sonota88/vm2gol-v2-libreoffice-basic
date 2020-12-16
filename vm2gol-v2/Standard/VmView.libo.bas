@@ -267,8 +267,6 @@ sub render
     _render_mem_stack(sh_vm, bp, sp)
     _render_mem_vram(sh_vm)
 
-    _unlock()
-
     exit sub
 err__render:
     print format_err_msg("render", err, erl, error$)
