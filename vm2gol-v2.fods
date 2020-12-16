@@ -1903,24 +1903,24 @@ end sub
 
 &apos; --------------------------------
 
-function is_label_line(_line)
-    is_label_line = (left(_line, 5) = &quot;label&quot;)
+function is_label_line(line_)
+    is_label_line = (left(line_, 5) = &quot;label&quot;)
 end function
 
 
 function _make_label_addr_map(lines)
     dim label_addr_map
-    dim _line
+    dim line_
     dim v1
     dim ri
 
     label_addr_map = Map.new_()
 
     for ri = 0 to (lines.len - 1)
-      _line = List.get_(lines, ri)
+      line_ = List.get_(lines, ri)
 
-      if is_label_line(_line) then
-        v1 = split(_line, &quot; &quot;)(1)
+      if is_label_line(line_) then
+        v1 = split(line_, &quot; &quot;)(1)
         Map.set_(label_addr_map, v1, ri)
       end if
     next
@@ -1936,17 +1936,17 @@ end sub
 
 sub _assemble(lines, label_addr_map)
     dim ri as integer
-    dim _line, xs
+    dim line_, xs
     dim v0, v1
 
     for ri = 0 to (lines.len - 1)
-        _line = List.get_(lines, ri)
+        line_ = List.get_(lines, ri)
 
-        if not is_label_line(_line) then
-          _line = substring(_line, 2)
+        if not is_label_line(line_) then
+          line_ = substring(line_, 2)
         end if
 
-        xs = List.from_array(split(_line, &quot; &quot;))
+        xs = List.from_array(split(line_, &quot; &quot;))
         v0 = List.get_(xs, 0)
 
         if ( _
